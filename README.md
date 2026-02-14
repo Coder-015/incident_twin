@@ -97,3 +97,12 @@ It functions as a **forward-looking attack evolution engine**, providing:
 *   **/frontend**: All the visuals.
     *   `src/components/AttackGraph.jsx`: The D3.js visualization code.
     *   `src/App.jsx`: The main dashboard layout and button logic.
+ 
+## How to run
+
+*    **Quick Start (Windows)**
+     * Clone the repository.
+     * Run restart.bat This script automatically installs dependencies and launches both servers.
+*    **Manual Start**
+     * Backend: cd backend && python -m uvicorn main:app --reload --port 8000
+     * Frontend: cd frontend && npm run dev
